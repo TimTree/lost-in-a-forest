@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lost in a Forest</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<link rel="shortcut icon" type="image/x-icon" href="tree.ico" />
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="Will you find your way out?">
+<meta name="author" content="Timothy Hsu">
+
+<style>
+
+body {
+margin: 0 auto;
+background-color:#2A7D66;
+width:90%;
+max-width:850px;
+}
+
+#main {
+background-color:#f8f8f8;
+box-shadow: 0 0 8px rgba(0, 0, 0, 0.35);
+-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.35);
+-moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.35);
+margin:20px 0;
+padding:10px 30px;
+font-family:verdana, DejaVu Sans, sans-serif;
+}
+
+#title {
+font-size:32pt;
+color:#AD3939;
+font-family:"trebuchet ms","droid sans",sans-serif;
+display:block;
+text-align:center;
+font-weight:700;
+margin:15px 0;
+}
+
+#author {
+display:block;
+text-align:center;
+font-size:16pt;
+margin-bottom:1.4em;
+color:#322EBD;
+}
+
+#copyright {
+font-size:10pt;
+text-align:center;
+margin-top:50px;
+}
+
+div.toggle {
+background: #689FE2;
+border: 1px solid #689FE2;
+color: #fff;
+cursor: pointer;
+font-weight: 700;
+padding: 5px 7px;
+margin:1em 0 0 auto;
+max-width:97.2%;
+}
+
+div.module {
+border: 1px solid #689FE2;
+border-top: 0;
+padding: 1em 7px 1.4em 7px;
+background:#fff;
+max-width:97.2%;
+margin:0 0 0 auto;
+}
+
+@media screen and (max-width: 660px) {
+
+#main {
+padding:10px 15px;
+font-size:11pt;
+}
+
+#title {
+font-size:24pt;
+}
+
+#author {
+font-size:12pt;
+}
+
+div.toggle {
+padding: 3px 5px;
+}
+
+div.module {
+padding: 1em 5px 1.4em 5px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="main">
+
+<noscript>
+<span style="display:block;text-align:center;">Javascript is disabled. Please enable it to play this game.</span>
+</noscript>
+
+<div id="title">Lost in a Forest</div>
+<div id="author">A Text Adventure</div>
+
+<p>Click on the choice you want to continue the story. Good luck!</p>
+
+<div class="toggle" style="margin:auto;">Click here to begin.</div>
+	<div class="module" style="margin:auto;display: none;">Oh no, you're stuck in the middle of a forest! What to do?
+	<div class="toggle">Go north.</div>
+		<div class="module" style="display:none;">You go north. It leads into two different areas: a dark cave and a bridge above a lake. Now what?
+		<div class="toggle">Go in the cave.</div>
+			<div class="module" style="display:none;">You enter the cave. It sure is dark, and you don't have a flashlight. You unknowingly end up falling off a conveniently located ledge.<br><br>The end.
+			</div>
+		<div class="toggle">Go across the bridge.</div>
+			<div class="module" style="display:none;">You head to the bridge. Youch, there are alligators! Your feet are eaten, making you immobile, resulting in your entire body eventually devoured away.<br><br>The end.
+			</div>
+		</div>
+	<div class="toggle">Go west.</div>
+		<div class="module" style="display:none;">You go west. It leads to a small abandoned village. Interesting, isn't it?
+		<div class="toggle">Walk across the village.</div>
+			<div class="module" style="display:none;">As you traverse the village, you find a hidden chamber that heads downward. Any thoughts?
+			<div class="toggle">Head on in.</div>
+				<div class="module" style="display:none;">As you enter the chamber, the entrance immediately locks shut, leaving you no chance to escape. Then suddenly, some evil guy appears, captures you, and holds you hostage in a carbon monoxide chamber. At your first breath in the chamber, you instantly pass out and die.<br><br>The end.
+				</div>
+			<div class="toggle">Keep going.</div>
+				<div class="module" style="display:none;">You continue your journey, eventually making it to the end of the village. A fence to leave the village appears in front of you, which is locked. Now what?
+				<div class="toggle">Search the village for a key.</div>
+					<div class="module" style="display:none;">Your attempt to find a key is unsuccessful, and to make matters worse, you fall into a trapdoor during the search.<br><br>The end.
+					</div>
+				<div class="toggle">Climb the fence.</div>
+					<div class="module" style="display:none;">You successfully climb the fence. After all, the fence was quite low and didn't have any spikes or electrical wires. From there, you keep following the path. The more you travel, the more you see the sun. Eventually, you see civilization again. You have escaped the forest!<br><br>The end.
+					</div>
+				</div>
+			</div>
+		<div class="toggle">Search the village for treasure.</div>
+			<div class="module" style="display:none;">Where do you start searching?
+			<div class="toggle">The nearest cottage you see.</div>
+				<div class="module" style="display:none;">You head on inside, and begin searching. Unfortunately, a bunch of rattle snakes suddenly appear and bite you crazily. You find yourself doomed.<br><br>The end.
+				</div>
+			<div class="toggle">In a lush digging spot.</div>
+				<div class="module" style="display:none;">You grab the nearest shovel you see and start digging. Look, it's a small treasure chest! Your reaction?
+				<div class="toggle">Open it.</div>
+					<div class="module" style="display:none;">You open the chest, and there's a jewel inside! But little do you know that the jewel really is as sticky as hot glue, designed as a nasty trap. Yeowzers!<br><br>The end.
+					</div>
+				<div class="toggle">Discard it and keep digging.</div>
+					<div class="module" style="display:none;">You keep digging, only to eventually find yourself so low to the ground that you can't get back to the surface. You're doomed!<br><br>The end.
+					</div>
+				</div>
+			</div>
+		</div>
+	<div class="toggle">Go east.</div>
+		<div class="module" style="display:none;">You go east. There is another fork in the road. Which way should you go?
+		<div class="toggle">Go left.</div>
+			<div class="module" style="display:none;">You go left. You arrive at a wide open area with trees surrounding it. In other words, it's a dead end.
+			<div class="toggle">Traverse through the trees.</div>
+				<div class="module" style="display:none;">You enter unmarked territory. As you progress, you get tangled up from twigs and leaves, leaving you stuck and without a way to escape.<br><br>The end.
+				</div>
+			<div class="toggle">Carve a message with a giant stick at the dead end.</div>
+				<div class="module" style="display:none;">What message should you carve?
+				<div class="toggle"><q>HELP!</q></div>
+					<div class="module" style="display:none;">You successfully carve the message. At some point, someone with a helicopter arrives at dead end as a result of reading your message. They ask if you want a ride back to safety. You say yes. Then, the person takes you to the helicopter and flies you back to safety. You have successfully escaped the forest!<br><br>The end.
+					</div>
+				<div class="toggle"><q>I LIKE PIE.</q></div>
+					<div class="module" style="display:none;">You successfully carve the message. At some point, someone with a helicopter arrives at dead end as a result of reading your message. They ask if you like pie. You say yes. Then, you get pied to the face, and before you can protest, you get kidnapped.<br><br>The end.
+					</div>
+				</div>
+			</div>
+		<div class="toggle">Go right.</div>
+			<div class="module" style="display:none;">You go right. It leads to a bridge above a ledge. As you cross the bridge, the bridge snaps. You fall from a massive height and die.<br><br>The end.
+			</div>
+		<div class="toggle">Hack and slash your way in between.</div>
+			<div class="module" style="display:none;">As dangerous as it sounds, you go for it anyway. You're doing fine, until you reach animal territory. Then something bad happens.<br><br>The end
+			</div>
+		</div>
+	<div class="toggle">Yell for help.</div>
+		<div class="module" style="display:none;">You yell for help. Nothing happens.
+		<div class="toggle">Continue yelling while waving and dancing rapidly.</div>
+			<div class="module" style="display:none;">As crazy as it sounds, you proceed with the action. Luckily, someone with a helicopter notices and rescues you! You may be out of the forest, but instead of at home, you're stuck in a mental institution.<br><br>The end.
+			</div>
+		<div class="toggle">Climb up the nearest tree and try again.</div>
+			<div class="module" style="display:none;">Exalted on the tree, you proudly stand up, raise your hands, and howl for help again. Unfortunately, that's when you begin to slip, and suddenly, you start to fall...<br><br>The end.
+			</div>
+		</div>
+	<div class="toggle">Whack yourself in agony.</div>
+		<div class="module" style="display:none;">Whack, whack, whack! Ouch, that must hurt!
+		<div class="toggle">Continue whacking yourself, this time with a stick.</div>
+			<div class="module" style="display:none;">The stick you find is a giant one. Whacka, whacka, whacka! Now the brain hurts.
+			<div class="toggle">Let's find some coconuts, shall we?</div>
+				<div class="module" style="display:none;">Yeah, this ain't looking good.<br><br>The end.
+				</div>
+			<div class="toggle">Suddenly collapse to the floor.</div>
+				<div class="module" style="display:none;">When you do that, you coincidentally pass out as well. Oh well.<br><br>The end.</div>
+			</div>
+		<div class="toggle">Randomly eat the nearest object in front of you.</div>
+			<div class="module" style="display:none;">The nearest object is a poison berry bush. You can probably tell what happens next.<br><br>The end.
+			</div>
+		</div>
+	</div>
+
+<div id="copyright"><p>&copy;2013 Timothy Hsu</p></div>
+</div>
+
+<script>
+var classname = document.getElementsByClassName("toggle");
+
+var toggler = function() {
+if (this.nextElementSibling.style.display=="none") {this.nextElementSibling.style.display="block";}
+else {this.nextElementSibling.style.display="none";}
+};
+
+for(var i=0;i<classname.length;i++){
+        classname[i].addEventListener('click', toggler, false);
+    }
+</script>
+
+</body>
+</html>
