@@ -12,16 +12,21 @@ All you have to do is click on the choices to continue the story. There are mult
 
 ## Version History
 
-### [V3 (Released TBA)]()
-- TBA
+### [v3 (Released March 20, 2020)]()
+- Adds endings counter
+- Adds rounded corners to UI
+- Adjusts some colors to improve contrast
+- Modifies some grammar for active voice
+- Refactors JavaScript
+- Updates jQuery from 3.1.1 to 3.4.1
 
-### [V2 (Released November 5, 2016)]()
+### [v2 (Released November 5, 2016)]()
 - Adds expand/collapse animation when selecting choices
 - Adds contrasting colors for every other choice
 - Adds hover effects
 - Updates fonts
 - Utilizes jQuery
 
-### [V1 (Released September 10, 2015)]()
+### [v1 (Released September 10, 2015)]()
 - Initial release as a standalone webpage
     - The game previously existed as a post in a now-defunct forum.
