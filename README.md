@@ -12,7 +12,7 @@ All you have to do is click on the choices to continue the story. There are mult
 
 ## Version History
 
-### [v3 (Released March 20, 2020)]()
+### [v3 (Released March 20, 2020)](https://lostforest.gamesbytim.com)
 - Adds endings counter
 - Adds rounded corners to UI
 - Adjusts some colors to improve contrast
@@ -20,13 +20,13 @@ All you have to do is click on the choices to continue the story. There are mult
 - Refactors JavaScript
 - Updates jQuery from 3.1.1 to 3.4.1
 
-### [v2 (Released November 5, 2016)]()
+### [v2 (Released November 5, 2016)](https://lostforest.gamesbytim.com/archive/v2)
 - Adds expand/collapse animation when selecting choices
 - Adds contrasting colors for every other choice
 - Adds hover effects
 - Updates fonts
 - Utilizes jQuery
 
-### [v1 (Released September 10, 2015)]()
+### [v1 (Released September 10, 2015)](https://lostforest.gamesbytim.com/archive/v1)
 - Initial release as a standalone webpage
     - The game previously existed as a post in a now-defunct forum.
